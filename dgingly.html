@@ -33,6 +33,22 @@
         .social-icon {
             margin-left: 10px;
         }
+
+        #container {
+            width:960px;
+            margin:0 auto;
+            overflow: hidden;
+        }
+        #sidebar {
+            float:left;
+            width:340px;
+        }
+        #content {
+            float:left;
+            width:620px;
+        }
+
+
     </style>
 </head>
 <body>
@@ -55,7 +71,10 @@
 <div class="info">
     <div class="section">
         <h2>Джинглы</h2>
-        <p>Алмаатинцы</p>
+        <div id="container">
+            <div id="sidebar">
+
+            <p>Алмаатинцы</p>
         <audio controls>
             <source src="audio/Алмаатинцы.mp3" type="audio/mpeg">
             <a href="audio/Алмаатинцы.mp3">Скачайте музыку</a>.
@@ -97,6 +116,7 @@
             <a href="audio/Джентельмены%20удачи.mp3">Скачайте музыку</a>.
         </audio>
 
+
 <p>Домбра</p>
         <audio controls>
             <source src="audio/домбра.mp3" type="audio/mpeg">
@@ -108,7 +128,10 @@
             <source src="audio/Дубинушка.mp3" type="audio/mpeg">
             <a href="audio/Дубинушка.mp3">Скачайте музыку</a>.
         </audio>
-<p>Казачок</p>
+
+
+
+           <p>Казачок</p>
         <audio controls>
             <source src="audio/Казачок.mp3" type="audio/mpeg">
             <a href="audio/Казачок.mp3">Скачайте музыку</a>.
@@ -164,23 +187,15 @@
 
 
 
-    </div>
+
+</div>
+      </div>
 
                         <!-- колонтитул -->
-    <div class="social-icon">
-        <a href="https://www.facebook.com/groups/1235908943120484/">
-            <img class="smaller-image thin-gray-border" src="https://www.facebook.com/images/fb_icon_325x325.png">
-        </a>
-    </div>
 
-
-    <div class="social-icon">
-        <a href="https://ok.ru/group/57988745265199">
-            <img class="smaller-image thin-gray-border" src="http://www.ua-ru.de/wp-content/uploads/2015/01/odnoklass.png">
-        </a>
-    </div>
-</div>
-</div>
+    <script type="text/javascript" src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//yastatic.net/share2/share.js" charset="utf-8"></script>
+    <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus" data-counter=""></div>
 </body>
 </html>
 
